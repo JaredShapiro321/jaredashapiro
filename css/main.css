@@ -314,7 +314,6 @@ textarea {
 }
 
 .box-logo {
-  height: 20vh;
   width: 32vh;
   transform: translate(-50%,-50%);
   top: 50%; left: 50%;
@@ -494,6 +493,30 @@ textarea {
   color: red;
 }
 
+.social:hover {
+  cursor: pointer;
+}
+
 .big-image {
   height: 100vh;
+}
+
+.slider {
+  position: sticky;
+  top: 50%;
+  left: 0;
+  width: 33vw;
+  height: 0px;
+  display: table;
+  text-align: center;
+  transform: translate(0%, -50%);
+}
+
+.social-block {
+  position: absolute;
+  height: 95px;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
 }
