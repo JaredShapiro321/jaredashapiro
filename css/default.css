@@ -20,6 +20,19 @@
   #end {
     height: 100vh;
     width: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90pt;
+    text-align: center;
+    display: block;
+    color: #FFFFFF;
+  }
+  
+  #end div {
+    margin-left: 10vw; 
+    margin-right: 10vw;
+    position: relative;
+    top: 50%;
+    transform: translate(0%,-50%);
   }
   
   .red {
